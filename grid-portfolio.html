@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Grid Layout Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+	img {
+		width: 200px;
+	} figure {
+		width: 200px;
+		margin: 24px;
+		// background: pink;
+	} figcaption {
+		font: 12pt/1.4em 'Roboto Serif';
+		text-align: center;alignment-baseline: 
+	} div {
+		width: 768px;
+		height: 512px;
+		margin: 0 auto;
+		// border: 1px dashed gray;
+		display: grid;
+		grid-template: auto / repeat(3,auto);
+	} h1 {
+		text-align: center;
+		font: 48pt/1.4em 'Dancing Script';
+	}
+</style>
+</head>
+
+<body>
+	<h1>Grid Layout Portfolio</h1>
+	<div>
+	<figure>
+	<img src="thumb_between-two-fires.jpg" />
+	<figcaption>Between two fires</figcaption>
+	</figure>
+	<figure>
+	<img src="thumb_discord-ver.jpg" />
+	<figcaption>Discord Ver</figcaption>
+	</figure>
+	<figure>
+	<a href="zeeple.jpg">
+	<img src="thumb_zeeple.jpg" />
+	</a>
+	<figcaption>Zeeple</figcaption>
+	</figure>
+	</div>
+</body>
+</html>
